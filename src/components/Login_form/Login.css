@@ -1,0 +1,47 @@
+.login_row{
+    @apply w-[250px] md:w-[350px] lg:w-[540px] bg-[#131316CC] m-auto rounded-[20px] shadow-[0_3px_10px_rgb(0,0,0,0.2)]
+}
+.login_row1 h2{
+    @apply text-[14px] md:text-[20px] lg:text-[28px] text-white font-popin font-[600] flex justify-center pt-[20px] md:pt-[26px] lg:pt-[48px]
+}
+.login_row1 .link{
+    @apply flex justify-center gap-[16px] mt-[26px] md:mt-[32px]
+}
+.login_row1 .link1{
+    @apply flex items-center justify-center w-[100px] h-[30px] md:w-[120px] md:h-[38px] lg:w-[190px] lg:h-[48px] bg-[#26272B] rounded-lg 
+}
+.login_row1 .link1 h3{
+    @apply text-[8px] md:text-[16px] text-[#A0A0AB] font-popin font-[600] pl-[8px]
+}
+.login_row1 .link1 .icon{
+    @apply text-[#1570EF]
+}
+.login_row1 p{
+    @apply text-[12px] md:text-[16px] text-[#70707B] font-popin font-[600] flex justify-center mt-[12px] md:mt-[20px] lg:pb-[12px]
+}
+.login_row2{
+    @apply px-[18px] md:px-[48px] lg:px-[72px] relative
+}
+.login_row2 h2{
+    @apply text-[12px] md:text-[16px] text-[#D1D1D6] font-popin font-[400] mt-[24px] mb-[2px] md:mt-[26px] md:mb-[3px] lg:mt-[30px] lg:mb-[4px]
+}
+.login_row2 h2 span{
+    @apply pl-[105px] md:pl-[110px] lg:pl-[251px]
+}
+.login_row2 input{
+    @apply w-[214px] md:w-[253px] lg:w-[396px] h-[36px] lg:h-[48px] bg-transparent border-[2px] border-solid border-[#3F3F46] hover:border-[3px] md:hover:border-[2px]
+     hover:border-[#194185] rounded-[6px] outline-none text-[10px] md:text-[14px] text-[#70707B] font-popin font-[400] pl-[12px]
+}
+.login_row2 button{
+    @apply text-[12px] md:text-[16px] text-[#FCFCFC] font-popin font-[600] py-[8px] px-[58px] md:px-[62px] lg:py-[16px] lg:px-[134px] bg-[#1570EF]
+    rounded-[5px] mt-[30px] md:mt-[35px] lg:mt-[40px] flex justify-center items-center active:scale-[1.1] transition-[.4s]
+}
+.input_last_text{
+    @apply flex text-[12px] md:text-[14px] lg:text-[16px] text-[#70707B] font-popin font-[400] mt-[18px] pb-[26px] lg:mt-[22px] lg:pb-[36px] justify-center gap-[4px]
+}
+.input_last_text span{
+    @apply font-[500]
+}
+.login_row2 .eye{
+    @apply text-xl lg:text-2xl text-white absolute right-[30px] top-[107px] md:right-[56px] md:top-[123px] lg:right-[84px] lg:top-[144px]
+}
